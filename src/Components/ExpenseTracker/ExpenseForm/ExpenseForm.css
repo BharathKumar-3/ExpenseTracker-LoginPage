@@ -1,0 +1,43 @@
+.form-wrapper{
+    padding:2vh 1vw;
+    border-radius: 10px;
+    width: 50vw;
+    background-color: #a892ee;
+    font-size: 1.2vw;
+}
+.expense-form{
+    display: flex;
+    flex-direction: row;
+    gap:1vw;
+    margin: 1vh 1vw;
+    flex-wrap: wrap;
+}
+.expense-input-wrapper{
+    margin: 1vh 1vw;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: fit-content;
+}
+.expense-input-wrapper input{
+    height: 4vh;
+    font-size: 2vh;
+    width: 20vw;
+    border-radius: 5px;
+    border: none;
+    font-size: 1vw;
+}
+.expense-input-wrapper label{
+    font-weight: 500;
+}
+.add-expense{
+    border: none;
+    background-color: #40005d;
+    color: white;
+    border-radius: 5px;
+    padding: 2vh ;
+    height: fit-content;
+    width: fit-content;
+    margin:1vh 18vw;
+    font-size: 1vw;
+}

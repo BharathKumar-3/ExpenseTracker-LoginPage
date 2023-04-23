@@ -1,0 +1,51 @@
+
+.list-container{
+    margin: 2vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #3a3a3a;
+    border-radius: 10px;
+}
+.date-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-color: #ececec;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: thin;
+    margin: 1vh 0.8vw;
+    background-color: #2a2a2a;
+    padding: 1vh 1vw;
+}
+
+.title-wrapper,.amount-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.amount-wrapper{
+    border-color: #ececec;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: thin;
+    margin: 1vh 0.8vw;
+    padding: 0px 2vw;
+    background-color: #40005d;
+}
+
+.year{
+    margin:0px;
+    font-size: 4vh;
+}
+.month{
+    margin:0px;
+    font-size:2.5vh
+}
+.date{
+    margin:0px;
+    font-size: 2vh;
+}
